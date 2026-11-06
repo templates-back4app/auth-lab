@@ -33,7 +33,7 @@ a stranger reading the Account table:  1 row(s) — password included
 
 ```
 150 wrong passwords in a row:               150 were answered, 0 were refused for trying
-how long that took:                         2.4s — 63 guesses per second
+how long that took:                         2.4s — 61 guesses per second
 the correct password, straight afterwards:  accepted — the account was never locked
 ```
 
