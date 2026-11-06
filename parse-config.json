@@ -1,0 +1,10 @@
+{
+  "appId": "auth",
+  "masterKey": "auth-master-key",
+  "databaseURI": "mongodb://mongo:27017/dev",
+  "masterKeyIps": ["0.0.0.0/0", "::/0"],
+  "appName": "auth-lab",
+  "publicServerURL": "http://127.0.0.1:1346/parse",
+  "verifyUserEmails": true,
+  "emailAdapter": { "module": "/parse-server/cloud/mail.js" }
+}

@@ -1,0 +1,9 @@
+# The same backend with e-mail switched on: verification required, and an
+# adapter that writes what it would have sent to a file.
+services:
+  parse:
+    volumes:
+      - "./cloud:/parse-server/cloud:ro"
+      - "./outbox:/parse-server/outbox"
+      - "./parse-config.json:/parse-server/parse-config.json:ro"
+    command: ["/parse-server/parse-config.json"]
